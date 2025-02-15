@@ -1,5 +1,5 @@
 package com.dental.controller;
-
+//a
 import com.dental.entity.Blog;
 import com.dental.entity.Doctor;
 import com.dental.entity.Patient;
