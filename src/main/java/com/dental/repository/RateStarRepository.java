@@ -1,5 +1,5 @@
 package com.dental.repository;
-
+//a
 import com.dental.entity.RateStar;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;

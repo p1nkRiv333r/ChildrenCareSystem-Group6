@@ -1,5 +1,5 @@
 package com.dental.repository;
-
+//a
 import com.dental.entity.Blog;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

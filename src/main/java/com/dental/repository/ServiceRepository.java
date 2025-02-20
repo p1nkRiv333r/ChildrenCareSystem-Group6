@@ -1,5 +1,5 @@
 package com.dental.repository;
-
+//a
 import com.dental.entity.Blog;
 import com.dental.entity.Service;
 import org.springframework.transaction.annotation.Transactional;
