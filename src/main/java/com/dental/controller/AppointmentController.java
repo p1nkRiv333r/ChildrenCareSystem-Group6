@@ -480,4 +480,3 @@ public class AppointmentController {
         return "redirect:/service/" + serviceId;
     }
 }
-//*** */
