@@ -25,7 +25,7 @@ public class UploadFile {
     private static final String CLOUDINARY_API_KEY = "823519499464769";
     private static final String CLOUDINARY_API_SECRET = "InH7Lc8Dg2TfbffAR80iLSh0W1k";
     private static final String CLOUDINARY_CLOUD_NAME = "dvlxhj1gw";
-
+    
     public static String getFileName(MultipartFile multipartFile) {
         return System.currentTimeMillis() + "-" + StringUtils.cleanPath(multipartFile.getOriginalFilename());
     }
