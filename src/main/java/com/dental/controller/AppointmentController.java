@@ -374,7 +374,7 @@ public class AppointmentController {
 
         return "admin/appointment/appointment-detail";
     }
-
+//a
     @PostMapping("/admin/assign-appointment")
     public String assignDoctor(
             @RequestParam("doctorId") int doctorId,
