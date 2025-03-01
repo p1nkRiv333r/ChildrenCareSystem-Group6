@@ -69,7 +69,7 @@ public class AdminController {
         return "admin/index";
     }
 
-
+//Admin Dashboard
     @GetMapping("/chart-data")
     @ResponseBody
     public ChartDataResponse getChartData(@RequestParam("option") String option, @RequestParam("type") String type) {
