@@ -31,7 +31,7 @@ public class AppointmentService {
 
 //    public Page<Appointment> getAllByBlogId(int blogId, Pageable pageable) {
 //        return appointmentRepository.findAllByBlogBlogId(blogId, pageable);
-//    }
+//    } //
 
     public void save(Appointment appointment) {
         appointmentRepository.save(appointment);

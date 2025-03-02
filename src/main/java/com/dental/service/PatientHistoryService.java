@@ -17,7 +17,7 @@ public class PatientHistoryService {
     public PatientHistory get(int id) {
         return patientHistoryRepository.findById(id).get();
     }
-
+//
     public void save(PatientHistory patientHistory) {
         patientHistoryRepository.save(patientHistory);
     }
