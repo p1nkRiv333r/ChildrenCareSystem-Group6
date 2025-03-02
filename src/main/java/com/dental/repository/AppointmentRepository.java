@@ -103,4 +103,8 @@ public interface AppointmentRepository extends JpaRepository<Appointment, Intege
     @Query("SELECT COUNT(a) FROM Appointment a WHERE YEAR(a.date) = :year AND MONTH(a.date) = :month AND DAY(a.date) = :day ")
     int countByDateDay(int year, int month, int day);
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e99c8658071e07ed6957ee9b88f0b3e7900b439a
