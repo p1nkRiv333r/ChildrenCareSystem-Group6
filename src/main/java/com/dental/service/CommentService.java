@@ -38,7 +38,7 @@ public class CommentService {
     public Page<CommentBlog> findAll(Pageable pageable) {
         return commentRepository.findAll(pageable);
     }
-
+//
     public Page<CommentBlog> findAllByBlogBlogIdOrderByCreatedAtDesc(int blogId, Pageable pageable) {
         return commentRepository.findAllByBlogBlogIdOrderByCreatedAtDesc(blogId, pageable);
     }

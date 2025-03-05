@@ -117,7 +117,7 @@ public class Service {
         this.doctor = doctor;
     }
 
-//    public List<MedicalInformation> getMedicalInformation() {
+//    public List<MedicalInformation> getMedicalInformation() { Fix Bug
 //        return medicalInformation;
 //    }
 //
