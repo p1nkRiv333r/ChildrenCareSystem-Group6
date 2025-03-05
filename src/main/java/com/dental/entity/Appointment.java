@@ -88,7 +88,7 @@ public class Appointment {
 
 
 
-//    public String getDate() {
+//    public String getDate() { Reservation Contact
 //        String pattern = "MMMM dd yyyy";
 //        java.util.Date cdate = null;
 //        String d = null;
