@@ -76,19 +76,6 @@ public class AppointmentController {
  * Phương thức Controller để lấy danh sách các cuộc hẹn dựa trên vai trò người dùng, ngày tháng và trạng thái.
  * Truy cập qua phương thức GET tại endpoint "/appointments".
  */
-    @GetMapping("/appointments")
-    public String listAppointment(
-            @AuthenticationPrincipal UserDetailsImpl userDetails,
-            Model model,
-            @RequestParam(name = "page", required = false, defaultValue = Const.PAGE_DEFAULT_STR) Integer pageNum,
-            @RequestParam(name = "pageSize", required = false, defaultValue = Const.PAGE_SIZE_DEFAULT_STR) Integer pageSize,
-            @RequestParam(name = "date", required = false) Date date,
-            @RequestParam(name = "status", required = false) String status
-    ) {
-        if (userDetails == null) {
-            return "redirect:/";
-        }
-    }
     /**
      * Hiển thị danh sách cuộc hẹn của bệnh nhân hoặc bác sĩ
      */
