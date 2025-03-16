@@ -71,7 +71,7 @@ public class ServiceController {
         }
 //        System.out.println(servicesWithAVG);
 //        System.out.println(servicesWithAVG.get(0));
-//        System.out.println(findAllServicesWithAverageStar);
+//        System.out.println(findAllServicesWithAverageStar);n
         model.addAttribute("statusSearch", statusSearch);
         model.addAttribute("usesPage", Service);
         model.addAttribute("numberOfPage", Service.getTotalPages());
@@ -117,7 +117,7 @@ public class ServiceController {
         List<Service> services = serviceService.getAll();
         model.addAttribute("service", new Service());
         model.addAttribute("services", services);
-
+411
         return "admin/service/add-service";
     }
 
