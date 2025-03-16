@@ -498,3 +498,4 @@ public String assignDoctor(@RequestParam("doctorId") int doctorId,
         return "redirect:/service/" + serviceId;
     }
 }
+//Reservation
