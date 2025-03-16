@@ -6,7 +6,7 @@ import lombok.Data;
 
 import java.sql.Date;
 import java.util.List;
-
+//cuss
 @Entity
 @Data
 public class Patient {
