@@ -55,7 +55,7 @@ public class AppointmentController {
             Model model
     ) {
         if (userDetails == null) {
-            return "redirect:/";
+            return "redirect:/";// Chuyển hướng về trang chủ nếu chưa đăng nhập
         }
         if (serviceIds == null) {
             serviceIds = new ArrayList<>();
@@ -65,9 +65,15 @@ public class AppointmentController {
         model.addAttribute("user", new User());
         model.addAttribute("services", serviceService.getAll());
         model.addAttribute("selectedServices", serviceIds);
-        return "landing/appointment/booking";
+        return "landing/appointment/booking";// Trả về template booking
     }
-
+    /**
+     * Hiển thị danh sách cuộc hẹn của bệnh nhân hoặc bác sĩ
+     */
+/**
+ * Phương thức Controller để lấy danh sách các cuộc hẹn dựa trên vai trò người dùng, ngày tháng và trạng thái.
+ * Truy cập qua phương thức GET tại endpoint "/appointments".
+ */
     @GetMapping("/appointments")
     public String listAppointment(
             @AuthenticationPrincipal UserDetailsImpl userDetails,
