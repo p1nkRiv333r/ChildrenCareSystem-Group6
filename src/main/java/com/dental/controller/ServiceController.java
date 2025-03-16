@@ -117,7 +117,7 @@ public class ServiceController {
         List<Service> services = serviceService.getAll();
         model.addAttribute("service", new Service());
         model.addAttribute("services", services);
-411
+
         return "admin/service/add-service";
     }
 
